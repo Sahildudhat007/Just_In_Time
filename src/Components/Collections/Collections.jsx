@@ -26,32 +26,32 @@ const collectionData = [
     {
         id: 1,
         img: collection0,
-        link: "/swissWatches",
+        link: "/SwissWatches",
     },
     {
         id: 2,
         img: collection1,
-        link: "/leatherWatches",
+        link: "/LeatherWatches",
     },
     {
         id: 3,
         img: collection2,
-        link: "/vintageWatches",
+        link: "/VintageWatches",
     },
     {
         id: 4,
         img: collection3,
-        link: "/automaticWatches",
+        link: "/AutomaticWatches",
     },
     {
         id: 5,
         img: collection4,
-        link: "/gShockWatches",
+        link: "/GShockWatches",
     },
     {
         id: 6,
         img: collection5,
-        link: "/arrivalWatches",
+        link: "/ArrivalWatches",
     },
 ];
 
