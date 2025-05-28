@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 // component import
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import TrandingWatchData from '../../Components/TrandingWatchData/TrandingWatchData';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 import Swiss from './Swiss';
 
 // react icon
@@ -15,8 +15,8 @@ function SwissWatches() {
     const [selectedBrand, setSelectedBrand] = useState("All");
 
     const filteredWatches = selectedBrand === "All"
-        ? TrandingWatchData.switchMadeWatches
-        : TrandingWatchData.switchMadeWatches.filter(watch => watch.brand === selectedBrand);
+        ? MenWomenData.switchMadeWatches
+        : MenWomenData.switchMadeWatches.filter(watch => watch.brand === selectedBrand);
 
     return (
         <>

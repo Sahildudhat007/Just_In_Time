@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // component import
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
-import TrandingWatchData from '../../Components/TrandingWatchData/TrandingWatchData';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 import Vintage from './Vintage';
 
 // image import
@@ -38,7 +38,7 @@ function VintageWatches() {
                 </div>
 
                 <div className='px-[10px] lg:px-[50px] xl:px-[10%] pb-9 mt-10 grid grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-[25px]'>
-                    {TrandingWatchData.vintageWatches.map((value, ind) => (
+                    {MenWomenData.vintageWatches.map((value, ind) => (
                         <Vintage
                             key={ind}
                             id={value.id}

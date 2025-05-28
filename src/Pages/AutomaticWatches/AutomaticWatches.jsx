@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 // component import
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
-import TrandingWatchData from '../../Components/TrandingWatchData/TrandingWatchData';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 import Automatic from './Automatic';
 
 // react icon
@@ -24,8 +24,8 @@ function AutomaticWatches() {
     };
 
     const filteredWatches = selectedBrand === "All"
-        ? TrandingWatchData.automationWatches
-        : TrandingWatchData.automationWatches.filter(watch => watch.brand === selectedBrand);
+        ? MenWomenData.automationWatches
+        : MenWomenData.automationWatches.filter(watch => watch.brand === selectedBrand);
 
     return (
         <>

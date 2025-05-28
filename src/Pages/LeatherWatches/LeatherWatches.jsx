@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // component import
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import TrandingWatchData from '../../Components/TrandingWatchData/TrandingWatchData';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 import Leather from './Leather';
 
 // react icon
@@ -24,8 +24,8 @@ function LeatherWatches() {
     };
 
     const filteredWatches = selectedBrand === "All"
-        ? TrandingWatchData.leatherWatches
-        : TrandingWatchData.leatherWatches.filter(watch => watch.brand === selectedBrand);
+        ? MenWomenData.leatherWatches
+        : MenWomenData.leatherWatches.filter(watch => watch.brand === selectedBrand);
 
     return (
         <>

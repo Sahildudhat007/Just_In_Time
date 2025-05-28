@@ -45,7 +45,12 @@ function ProductDetails() {
         MenWomenData.womenData.find(item => item.id === productId) ||
         MenWomenData.offerData.find(item => item.id === productId) ||
         MenWomenData.arrivalData.find(item => item.id === productId) ||
-        MenWomenData.smartData.find(item => item.id === productId);
+        MenWomenData.smartData.find(item => item.id === productId) ||
+        MenWomenData.switchMadeWatches.find(item => item.id === productId) ||
+        MenWomenData.leatherWatches.find(item => item.id === productId) ||
+        MenWomenData.vintageWatches.find(item => item.id === productId) ||
+        MenWomenData.automationWatches.find(item => item.id === productId) ||
+        MenWomenData.gShockWatches.find(item => item.id === productId);
 
     // Handle if product is not found
     if (!product) {
