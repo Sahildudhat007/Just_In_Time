@@ -25,6 +25,7 @@ import trending9 from "../../assets/images/trending9.webp";
 import trending10 from "../../assets/images/trending10.webp";
 import trending11 from "../../assets/images/trending11.webp";
 import trending12 from "../../assets/images/trending12.webp";
+import { Link } from 'react-router-dom';
 
 const trendingData = [
     {
@@ -132,7 +133,7 @@ function TrendingSwipe() {
                 <div className='py-[50px]'>
                     <div className='px-[36px] lg:px-[50px] xl:px-[141px] mb-6 flex items-center justify-between'>
                         <h2 className='md:text-[18px] lg:text-[1.757vw] mb-1.5 font-serif'>Trending Timepieces</h2>
-                        <a href="#" className='text-[16px] underline'>view all</a>
+                        <Link to="trendingTimepieces" className='text-[16px] underline'>view all</Link>
                     </div>
 
                     <div className='pl-[36px] lg:pl-[50px] xl:pl-[141px]'>

@@ -642,6 +642,48 @@ import hover_gshock19 from "../../assets/images/hover_gshock19.webp";
 import gshock20 from "../../assets/images/gshock20.webp";
 import hover_gshock20 from "../../assets/images/hover_gshock20.webp";
 
+// trending timepieces image
+import timepieces1 from "../../assets/images/timepieces1.webp";
+import hover_timepieces1 from "../../assets/images/hover_timepieces1.webp";
+import timepieces2 from "../../assets/images/timepieces2.webp";
+import hover_timepieces2 from "../../assets/images/hover_timepieces2.webp";
+import timepieces3 from "../../assets/images/timepieces3.webp";
+import hover_timepieces3 from "../../assets/images/hover_timepieces3.webp";
+import timepieces4 from "../../assets/images/timepieces4.webp";
+import hover_timepieces4 from "../../assets/images/hover_timepieces4.webp";
+import timepieces5 from "../../assets/images/timepieces5.webp";
+import hover_timepieces5 from "../../assets/images/hover_timepieces5.webp";
+import timepieces6 from "../../assets/images/timepieces6.webp";
+import hover_timepieces6 from "../../assets/images/hover_timepieces6.webp";
+import timepieces7 from "../../assets/images/timepieces7.webp";
+import hover_timepieces7 from "../../assets/images/hover_timepieces7.webp";
+import timepieces8 from "../../assets/images/timepieces8.webp";
+import hover_timepieces8 from "../../assets/images/hover_timepieces8.webp";
+import timepieces9 from "../../assets/images/timepieces9.webp";
+import hover_timepieces9 from "../../assets/images/hover_timepieces9.webp";
+import timepieces10 from "../../assets/images/timepieces10.webp";
+import hover_timepieces10 from "../../assets/images/hover_timepieces10.webp";
+import timepieces11 from "../../assets/images/timepieces11.webp";
+import hover_timepieces11 from "../../assets/images/timepieces11.webp";
+import timepieces12 from "../../assets/images/timepieces12.webp";
+import hover_timepieces12 from "../../assets/images/hover_timepieces12.webp";
+import timepieces13 from "../../assets/images/timepieces13.webp";
+import hover_timepieces13 from "../../assets/images/hover_timepieces13.webp";
+import timepieces14 from "../../assets/images/timepieces14.webp";
+import hover_timepieces14 from "../../assets/images/hover_timepieces14.webp";
+import timepieces15 from "../../assets/images/timepieces15.webp";
+import hover_timepieces15 from "../../assets/images/hover_timepieces15.webp";
+import timepieces16 from "../../assets/images/timepieces16.webp";
+import hover_timepieces16 from "../../assets/images/hover_timepieces16.webp";
+import timepieces17 from "../../assets/images/timepieces17.webp";
+import hover_timepieces17 from "../../assets/images/hover_timepieces17.webp";
+import timepieces18 from "../../assets/images/timepieces18.webp";
+import hover_timepieces18 from "../../assets/images/hover_timepieces18.webp";
+import timepieces19 from "../../assets/images/timepieces19.webp";
+import hover_timepieces19 from "../../assets/images/hover_timepieces19.webp";
+import timepieces20 from "../../assets/images/timepieces20.webp";
+import hover_timepieces20 from "../../assets/images/hover_timepieces20.webp";
+
 const MenWomenData = {
     menData: [
         {
@@ -1123,7 +1165,7 @@ const MenWomenData = {
             id: 60,
             img: women_watch10,
             hover_img: hover_women_watch10,
-            brand: "Calvin Klein",
+            brand: "",
             text: "Women's Silver Analog Stainless Steel Watch 25200237",
             price: "15,960",
         },
@@ -3208,6 +3250,169 @@ const MenWomenData = {
             brand: "Casio",
             text: "G-Shock Men's Analog-Digital Resin Watch G1278 - GM-2100G-1A9DR",
             price: "16,995",
+        },
+    ],
+
+    trendingTimepieces: [
+        {
+            id: 312,
+            img: timepieces1,
+            hover_img: hover_timepieces1,
+            brand: "Calvin Klein",
+            text: "Women Quartz Green Dial Analog Stainless Steel Watch 25100068",
+            price: "16,800",
+        },
+        {
+            id: 313,
+            img: timepieces2,
+            hover_img: hover_timepieces2,
+            brand: "Fossil",
+            text: "Fenmore Couple Quartz Blue Dial Multi-Function Stainless Steel Watch BQ2900SET",
+            price: "26,995",
+        },
+        {
+            id: 314,
+            img: timepieces3,
+            hover_img: hover_timepieces3,
+            brand: "Casio",
+            text: "G-Shock Men Quartz Grey Dial Analog-Digital Resin Watch GR-B300-8A2DR G1570",
+            price: "22,995",
+        },
+        {
+            id: 315,
+            img: timepieces4,
+            hover_img: hover_timepieces4,
+            brand: "Seiko",
+            text: "Dress Men Quartz Blue Dial Chronograph Stainless Steel Watch SSB453P1",
+            price: "35,000",
+        },
+        {
+            id: 316,
+            img: timepieces5,
+            hover_img: hover_timepieces5,
+            brand: "Guess",
+            text: "Dress Men Quartz Grey Dial Multi-Function Leather Watch GW0793G3",
+            price: "15,995",
+        },
+        {
+            id: 317,
+            img: timepieces6,
+            hover_img: hover_timepieces6,
+            brand: "Guess",
+            text: "Dress Men Quartz Green Dial Chronograph Recycled Steel Watch GW0572G6",
+            price: "19,995",
+        },
+        {
+            id: 318,
+            img: timepieces7,
+            hover_img: hover_timepieces7,
+            brand: "Casio",
+            text: "Enticer Men Quartz Green Dial Analog Stainless Steel Watch MTP-1302PD-3AVEF A2262",
+            price: "3,995",
+        },
+        {
+            id: 319,
+            img: timepieces8,
+            hover_img: hover_timepieces8,
+            brand: "Seiko",
+            text: "5 Sports Men Automatic Black Dial Analog Stainless Steel Watch SRPK89K1",
+            price: "35,000",
+        },
+        {
+            id: 320,
+            img: timepieces9,
+            hover_img: hover_timepieces9,
+            brand: "Guess",
+            text: "Men Quartz Blue Dial Chronograph Stainless Steel Watch GW0703G3",
+            price: "18,995",
+        },
+        {
+            id: 321,
+            img: timepieces10,
+            hover_img: hover_timepieces10,
+            brand: "Britime",
+            text: "Aquatica Men Automatic Blue Dial Multi-Function Leather Watch 274-L10506",
+            price: "28,495",
+        },
+        {
+            id: 322,
+            img: timepieces11,
+            hover_img: hover_timepieces11,
+            brand: "Britime",
+            text: "Orbit Men Automatic Silver Dial Multi-Function Leather Watch 574-L30306",
+            price: "29,995",
+        },
+        {
+            id: 323,
+            img: timepieces12,
+            hover_img: hover_timepieces12,
+            brand: "Casio",
+            text: "Enticer Men Blue Dial Analog Stainless Steel Watch MTP-1302PD-2AVEF - A2227",
+            price: "3,995",
+        },
+        {
+            id: 324,
+            img: timepieces13,
+            hover_img: hover_timepieces13,
+            brand: "Emporio Armani",
+            text: "Men Quartz Cream Dial Chronograph Stainless Steel Watch AR11606",
+            price: "27,995",
+        },
+        {
+            id: 325,
+            img: timepieces14,
+            hover_img: hover_timepieces14,
+            brand: "Seiko",
+            text: "5 Sports Men Automatic Green Dial Analog Stainless Steel Watch SSK035K1",
+            price: "45,000",
+        },
+        {
+            id: 326,
+            img: timepieces15,
+            hover_img: hover_timepieces15,
+            brand: "Emporio Armani",
+            text: "Men Quartz Green Dial Analog Stainless Steel Watch AR11338",
+            price: "22,995",
+        },
+        {
+            id: 327,
+            img: timepieces16,
+            hover_img: hover_timepieces16,
+            brand: "Michael Kors",
+            text: "Men Quartz Blue Dial Analog Stainless Steel Watch MK9169",
+            price: "19,796",
+        },
+        {
+            id: 328,
+            img: timepieces17,
+            hover_img: hover_timepieces17,
+            brand: "Michael Kors",
+            text: "Men Quartz White Dial Chronograph Stainless Steel Watch MK9112",
+            price: "14,347",
+        },
+        {
+            id: 329,
+            img: timepieces18,
+            hover_img: hover_timepieces18,
+            brand: "Casio",
+            text: "Enticer Men Analog Black Dial Stainless Steel Watch A2226 - MTP-1302PD-1A1VEF",
+            price: "3,995",
+        },
+        {
+            id: 330,
+            img: timepieces19,
+            hover_img: hover_timepieces19,
+            brand: "Boss",
+            text: "Men's Quartz Analog Light Blue Dial Stainless Steel Watch 1514132",
+            price: "18,675",
+        },
+        {
+            id: 331,
+            img: timepieces20,
+            hover_img: hover_timepieces20,
+            brand: "Daniel Wellington",
+            text: "Classic Men's Black Analog Stainless Steel Watch DW00100714K",
+            price: "15,995",
         },
     ]
 }

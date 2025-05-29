@@ -16,6 +16,7 @@ import { Mousewheel, Keyboard } from 'swiper/modules';
 //  import components
 import TempData from './TempData';
 import TempItem from './TempItem';
+import { Link } from 'react-router-dom';
 
 function Templates() {
     return (
@@ -24,7 +25,7 @@ function Templates() {
                 <div className='container mx-auto'>
                     <div className='mb-6 flex justify-between px-[37px] md:px-[55px]'>
                         <h1 className='text-[4.2vw] md:text-[1.757vw] font-serif'>Shop By Brand</h1>
-                        <a href="#" className='uppercase underline text-xs md:text-[16px]'>View All</a>
+                        <Link to="allBrand" className='uppercase underline text-xs md:text-[16px]'>View All</Link>
                     </div>
 
                     <div>

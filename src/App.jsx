@@ -43,6 +43,7 @@ import WomensWatches from './Pages/WomensWatches/WomensWatches';
 // react toastify
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import TrendingTimepieces from "./Pages/TrendingTimepieces/TrendingTimepieces";
 
 function App() {
 
@@ -90,6 +91,7 @@ function App() {
             <Route path='/smartWatches' element={<SmartWatches />} />
             <Route path='/swissWatches' element={<SwissWatches />} />
             <Route path='/termsCondition' element={<TermsCondition />} />
+            <Route path='/trendingTimepieces' element={<TrendingTimepieces />} />
             <Route path='/user' element={<User />} />
             <Route path='/vintageWatches' element={<VintageWatches />} />
             <Route path='/watchAccessories' element={<WatchAccessories />} />
