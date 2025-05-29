@@ -5,7 +5,7 @@ import Popup from 'reactjs-popup';
 import { ADD_CART, ADD_WISHLIST } from "../../Redux/Actions/Action";
 
 // firebase
-import { auth } from '../../firebase';
+import { auth } from '../../../firebase';
 
 // image import
 import group1 from "../../assets/icons/group1.svg";
