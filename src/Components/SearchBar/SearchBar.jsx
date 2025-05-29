@@ -48,7 +48,13 @@ function SearchBar() {
             ...MenWomenData.womenData,
             ...MenWomenData.offerData,
             ...MenWomenData.smartData,
-            ...MenWomenData.arrivalData
+            ...MenWomenData.arrivalData,
+            ...MenWomenData.switchMadeWatches,
+            ...MenWomenData.leatherWatches,
+            ...MenWomenData.vintageWatches,
+            ...MenWomenData.automationWatches,
+            ...MenWomenData.gShockWatches,
+            ...MenWomenData.trendingTimepieces,
         ];
 
         if (input === "") {
